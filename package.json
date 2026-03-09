@@ -1,14 +1,13 @@
 {
   "name": "link_up_backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
-    "env": "^0.0.2",
     "express": "^5.2.1",
     "firebase-admin": "^13.7.0"
   }
