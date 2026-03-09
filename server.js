@@ -10,7 +10,7 @@ admin.initializeApp({
 const db = admin.firestore();
 
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 app.get("/users", async (req, res) => {
     const snapshot = await db.collection("users").get();
